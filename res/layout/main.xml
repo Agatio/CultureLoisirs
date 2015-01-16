@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:weightSum="1">
@@ -39,6 +39,36 @@
                 android:layout_width="wrap_content"
                 android:layout_height="53dp"
                 android:id="@+id/spinner"/>
+        <Button android:layout_width="30dp" android:layout_height="15dp" android:text="Rechercher"/>
     </LinearLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/maplayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    tools:context=".MainActivity" >
+
+        <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.google.android.gms.maps.MapFragment" tools:layout="@layout/main"/>
+
+    </RelativeLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.03">
+
+        <Switch
+                android:id="@+id/togglebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="Liste"
+                android:textOff="Carte"
+                android:text="Type d'affichage : "
+                android:onClick="owSwitched"/>
+    </LinearLayout>
+
 </LinearLayout>
 
