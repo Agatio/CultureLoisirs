@@ -1,4 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CultureLoisirs</string>
+    <string name="title">Bienvenue sur CultureLoisirs</string>
+
+    <string-array name="type_labels">
+        <item name="amusement_park_label">Parc d\'attractions</item>
+        <item name="aquarium_label">Aquarium</item>
+        <item name="bowling_alley_label">Bowling</item>
+        <item name="campground_label">Camping</item>
+        <item name="casino_label">Casino</item>
+        <item name="gym_label">Salle de sport</item>
+        <item name="library_label">Bibliothèque</item>
+        <item name="movie_theater_label">Cinema</item>
+        <item name="museum_label">Musée</item>
+        <item name="park_label">Parc</item>
+        <item name="stadium_label">Stade</item>
+        <item name="zoo_label">Zoo</item>
+        <item name="bar_label">Bar</item>
+        <item name="night_club_label">Boite de nuit</item>
+    </string-array>
+
+    <string-array name="type_values">
+        <item name="amusement_park">amusement_park</item>
+        <item name="aquarium">aquarium</item>
+        <item name="bowling_alley">bowling_alley</item>
+        <item name="campground">campground</item>
+        <item name="casino">casino</item>
+        <item name="gym">gym</item>
+        <item name="library">library</item>
+        <item name="movie_theater">movie_theater</item>
+        <item name="museum">museum</item>
+        <item name="park">park</item>
+        <item name="stadium">stadium</item>
+        <item name="zoo">zoo</item>
+        <item name="bar">bar</item>
+        <item name="night_club">night_club</item>
+    </string-array>
 </resources>
